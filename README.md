@@ -2,15 +2,11 @@
 PyChain
 ===============================
 
-.. image:: https://badge.fury.io/py/pychain.png
-    :target: http://badge.fury.io/py/pychain
-    
-.. image:: https://travis-ci.org/michalbachowski/pychain.png?branch=master
-        :target: https://travis-ci.org/michalbachowski/pychain
+    [![PyPi package status](https://badge.fury.io/py/pychain.png)](http://badge.fury.io/py/pychain)
 
-.. image:: https://pypip.in/d/pychain/badge.png
-        :target: https://crate.io/packages/pychain?version=latest
+    [![Build Status](https://travis-ci.org/michalbachowski/pychain.png?branch=master)](https://travis-ci.org/michalbachowski/pychain)
 
+    [![PIP status](https://pypip.in/d/pychain/badge.png)](https://crate.io/packages/pychain?version=latest)
 
 Chain python functions execution. For more tools supporting functional programming in Python refer to great [fn.py](https://github.com/kachayev/fn.py) module by Alexey Kachayev.
 
