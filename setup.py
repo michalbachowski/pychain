@@ -16,14 +16,13 @@ if sys.argv[-1] == 'publish':
     os.system('python setup.py sdist upload')
     sys.exit()
 
-readme = open('README.rst').read()
-history = open('HISTORY.rst').read().replace('.. :changelog:', '')
+readme = open('README.md').read()
 
 setup(
     name='pychain',
     version='0.1.0',
     description='Chain python functions execution',
-    long_description=readme + '\n\n' + history,
+    long_description=readme,
     author='Michał Bachowski',
     author_email='michal@bachowski.pl',
     url='https://github.com/michalbachowski/pychain',
