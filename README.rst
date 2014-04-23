@@ -12,12 +12,14 @@ PyChain
         :target: https://crate.io/packages/pychain?version=latest
 
 
-Chain python functions execution
+Chain python functions execution. For more tools supporting functional programming in Python refer to great [fn.py](https://github.com/kachayev/fn.py) module by Alexey Kachayev.
 
-* Free software: BSD license
-* Documentation: http://pychain.rtfd.org.
+* Free software: MIT license
 
-Features
---------
+Example
+-------
 
-* TODO
+```python
+>>> Chain(sum).chain(lambda a: a - 1) | (lambda b: b * 3) < [1,2,3]
+15
+```
